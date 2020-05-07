@@ -66,7 +66,7 @@ getUserInfo().then(async userInfo => {
     // Greet a joined user
     socket.on('UserJoin', data => {
         socket.call('msg',[
-            `Hi ${data.username}! I'm pingbot! Write !ping and I will pong back!`,
+            `Hola ${data.username}! Estamos trasmitiendo una repetición en un momento nos comunicamos contigo!`,
         ]);
     });
 
